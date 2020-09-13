@@ -28,11 +28,27 @@
             <label id="number-label" for ='number'>Enter Your Age:</label>
             <input type='number' min="18" max="100" id='number' placeholder="Age" required>
           </div>
-          <div>
+          <div id="layout-dropdown">
+            <h3 id="title2">What's your favorite type of cat?</h3>
             <select id ='dropdown'>
-              
-
+              <option disabled value="none">Select One</option>
+              <option value="Persiano">Persiano</option>
+              <option value="Maine Coon">Maine Coon</option>
+              <option value="Siamese">Siamese</option>
+              <option value="Ragdoll">Ragdoll</option>
+              <option value="British Shorthair">British Shorthair</option>
             </select>
+          </div>
+          <div id="layout-radio">
+            <label for="name">Do you have any cat?</label>
+            <input type="radio" name="name" value="Yes" checked>Yes
+            <input type="radio" name="name" value="No">No
+          </div>
+          <div id="checkbox">
+            <label for="checkbox" id="check">What do you like about cats?</label>
+            <input type="checkbox" name="checkbox" value="Fur">Fur
+            <input type="checkbox" name="checkbox" value="Eyes">Eyes
+            <input type="checkbox" name="checkbox" value="Character">Character
           </div>
         </form>
       </div>
