@@ -8,7 +8,7 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <main>
+    <main id="main">
       <div id="top-page">
         <h1 id="title">What's your favorite cat?</h1>
         <p id="description">Thank you for your time!!</p>
@@ -16,17 +16,17 @@
       <div id ='forms'>
 
         <form id='survey-form'>
-          <div id="layout-name">
-            <label id="name-label" for ='name'>Enter Your Name:</label>
-            <input type='text' id='name' placeholder="Name" required>
+          <div id="layout-name" class="forms1">
+            <label id="name-label" for ='name'>Enter Your Name:</label><br>
+            <input type='text' class="borders" id='name' placeholder="Name" required>
           </div>
-          <div id="layout-email">
-            <label id="email-label" for ='email'>Enter Your Email:</label>
-            <input type='email' id='email' placeholder="Email" required>
+          <div id="layout-email" class="forms1">
+            <label id="email-label" for ='email'>Enter Your Email:</label><br>
+            <input type='email' class="borders" id='email' placeholder="Email" required>
           </div>
-          <div id="layout-number">
-            <label id="number-label" for ='number'>Enter Your Age:</label>
-            <input type='number' min="18" max="100" id='number' placeholder="Age" required>
+          <div id="layout-number" class="forms1">
+            <label id="number-label" for ='number'>Enter Your Age:</label><br>
+            <input type='number' class="borders" min="18" max="100" id='number' placeholder="Age" required>
           </div>
           <div id="layout-dropdown">
             <h3 id="title2">What's your favorite type of cat?</h3>
@@ -40,22 +40,22 @@
             </select>
           </div>
           <div id="layout-radio">
-            <label for="name">Do you have any cat?</label>
+            <label for="name">Do you have any cat?</label><br>
             <input type="radio" name="name" value="Yes" checked>Yes
             <input type="radio" name="name" value="No">No
           </div>
           <div id="checkbox">
-            <label for="checkbox" id="check">What do you like about cats?</label>
+            <label for="checkbox" id="check">What do you like about cats?</label><br>
             <input type="checkbox" name="checkbox" value="Fur">Fur
             <input type="checkbox" name="checkbox" value="Eyes">Eyes
             <input type="checkbox" name="checkbox" value="Character">Character
           </div>
           <div id= 'textarea'>
-            <p>Do you have any additional coments?</p>
-            <textarea  rows='5' cols='50' name='description'></textarea>
+            <p id="title3">Do you have any additional comments?</p>
+            <textarea id="textarea-l"  rows='5' cols='50' name='description'></textarea>
           </div>
           <div id='submit-layout'>
-            <input type='submit' name='submit' value ='submit'>
+            <input type='submit' id="submit" name='submit' value ='submit'>
           </div>
         </form>
       </div>

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(177, 99, 99);
+}
+body {
+    text-align: center;
+    background-color: rgb(45, 51, 51);
+}
+#main {
+    margin-top: 70px;
+    background-color: rgb(59, 57, 57);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 30px;
+
+}
+#top-page {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.forms1 {
+    margin: 30px;
+}
+.borders {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+#submit {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+#textarea-l {
+    border-radius: 30px;
+    opacity: 0.8;
+}
+#dropdown {
+    margin: 20px;
+}
+#layout-radio {
+    margin: 20px;
+}
+#checkbox {
+    margin: 20px;
+}
+#title3 {
+    margin: 20px;
+}
+#submit-layout {
+    margin: 20px;
+}
+
